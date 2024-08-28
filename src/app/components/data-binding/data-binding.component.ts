@@ -9,4 +9,15 @@ import { Component } from '@angular/core';
 })
 export class DataBindingComponent {
 
+  cName:string = "cse"
+  id:number = 54
+
+  inputType:string= "checkbox"
+  myClassName :string = "bg-primary"
+
+  constructor( ){
+   
+  }
+  
+
 }
