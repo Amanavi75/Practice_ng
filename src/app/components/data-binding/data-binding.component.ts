@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-data-binding',
   standalone: true,
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './data-binding.component.html',
   styleUrl: './data-binding.component.css'
 })
@@ -15,6 +16,11 @@ export class DataBindingComponent {
   inputType:string= "checkbox"
   myClassName :string = "bg-primary"
 
+
+  firstName = signal("aman avi ") 
+  // basic signal 
+
+
   constructor( ){
    
   }
@@ -24,6 +30,16 @@ export class DataBindingComponent {
     alert(message)
 
   }
+
+  changeCourseName(){
+    this.cName = "react js "
+
+    this.firstName.set("aditya")
+
+    // signal updation using set method or we can use update method 
+
+  }
+
 
 
   

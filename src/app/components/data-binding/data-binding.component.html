@@ -34,7 +34,18 @@
 <button class="btn btn-success" (click)="showAlert('welcome angular 18')">
     
     show welcome  
-
-    
-
 </button>
+
+<div>
+    2 way data binding 
+    <button class="btn btn-success" (click)="changeCourseName()"> changeName </button>
+    <input type="text" [(ngModel)]="cName">
+    
+    <div class="row-3">
+        <h2>
+            {{firstName()}}
+        </h2>
+    </div>
+
+</div>
+
