@@ -18,6 +18,14 @@ export class DataBindingComponent {
   constructor( ){
    
   }
+
+   showAlert(message:string){
+
+    alert(message)
+
+  }
+
+
   
 
 }
