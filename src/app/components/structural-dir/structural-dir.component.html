@@ -8,16 +8,18 @@
 
     </div>
     <br>
-
-
     <button  class="btn btn-success" (click)="showDiv1()" >
         show
     </button>
-
-
-    
-
     <button  class="btn btn-success  m-2"  (click)="hideDiv1()">
         hide 
     </button>
 </div>
+
+<span  *ngIf="num1 == num2"  class="row-4 bg-primary">
+    div 2 using comparison 
+</span> <br>
+
+<input type="text" [(ngModel)]="num1">
+
+<input type="text" [(ngModel)]="num2" id="">
