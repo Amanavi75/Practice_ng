@@ -23,3 +23,20 @@
 <input type="text" [(ngModel)]="num1">
 
 <input type="text" [(ngModel)]="num2" id="">
+
+
+<div class="row-5">
+    <ul>
+       <li *ngFor="let city of cityArray">
+        {{city}}
+       </li>
+       <li>
+       </li>
+    </ul>
+</div>
+
+<div class="row-4">
+    <select name="" id="">
+        <option *ngFor="let student of studentList" [value]="student.id">{{student.name}}</option>
+    </select>
+</div>
