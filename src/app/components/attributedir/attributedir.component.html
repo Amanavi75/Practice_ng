@@ -4,30 +4,30 @@
 
 </div>
 
-<div class="b" >
+<div class="b"[ngClass]="div1BgColor" >
     Div2
     
 
 </div>
 
-<div class="c">
+<div class="c" [ngClass]="div1BgColor">
     Div 3
 </div>
 
-<Div class="d">
+<Div class="d" [ngClass]="div1BgColor">
     Div 4
 </Div>
 
 <div>
-    <button class="btn">
+    <button class="btnp" (click)="addRedCol()">
         Add red
     </button>
 
-    <button class="btnn"> 
+    <button class="btnn" (click)="addBlueCol()"> 
         add Blue
     </button>
 
-    <button class="btnnn">
+    <button class="btnnn" (click)="addToggle()">
         toggle 
     </button>
 
