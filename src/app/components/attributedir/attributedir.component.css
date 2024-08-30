@@ -1,0 +1,66 @@
+div{
+    display: inline-block;
+}
+
+.a{
+    background-color: rebeccapurple;
+    width: 12vh;
+    height: 4vh;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.b{
+    background-color: blue;
+    margin-left: 140px;
+    width: 12vh;
+    height: 4vh;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.c{
+    background-color: aqua;
+    width: 12vh;
+    height: 4vh;
+    margin-left: 140px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.d{
+    background-color: yellow;
+    width: 12vh;
+    height: 4vh;
+    margin-left: 140px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+
+.btn{
+    margin-top: 30px;
+    background-color: red;
+    border-radius: 4px;
+}
+
+.btnn{
+    margin-left: 20px;
+    background-color: blue;
+    border-radius: 4px;
+
+}
+
+.btnnn{
+    margin-left: 20px;
+    background-color: rgba(30, 134, 30, 0.75);
+}
+
+.ip{
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.combox{
+    margin-left: 11px;
+}
