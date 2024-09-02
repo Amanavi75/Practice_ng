@@ -12,7 +12,7 @@ div{
 
 .b{
     background-color: blue;
-    margin-left: 140px;
+    margin-left: 70px;
     width: 12vh;
     height: 4vh;
     border-radius: 4px;
@@ -63,4 +63,11 @@ div{
 
 .combox{
     margin-left: 11px;
+}
+
+#str{
+    margin-top: 12px;
+    margin-left: 40px;
+    margin-right: 2px;
+    color: black;
 }
