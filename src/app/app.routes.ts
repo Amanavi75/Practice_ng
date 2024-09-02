@@ -1,4 +1,4 @@
-import { Routes } from '@angular/router';
+import { Routes} from '@angular/router';
 import { EmpComponent } from './components/emp/emp.component';
 import { DataBindingComponent } from './components/data-binding/data-binding.component';
 import { StructuralDirComponent } from './components/structural-dir/structural-dir.component';
@@ -11,17 +11,17 @@ export const routes: Routes = [
 
     },
     {
-        path:'data-binding',
+        path:"data-binding",
         component:DataBindingComponent
 
     },
     {
-        path:"structural directive",
+        path:"structuraldirective",
         component:StructuralDirComponent
     },
 
     {
-        path:"attributal directive",
+        path:"attributaldirective",
         component:AttributedirComponent
     }
 ];
