@@ -4,11 +4,12 @@ import { DataBindingComponent } from './components/data-binding/data-binding.com
 import { StructuralDirComponent } from './components/structural-dir/structural-dir.component';
 import { AttributedirComponent } from './components/attributedir/attributedir.component';
 import { IfelseComponent } from "./components/ifelse/ifelse.component";
+import { PipeComponent } from "./components/pipe/pipe.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RouterLink, IfelseComponent],
+  imports: [RouterOutlet, RouterLink, IfelseComponent, PipeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
